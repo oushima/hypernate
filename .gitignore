@@ -1,0 +1,45 @@
+# --- Python bytecode & caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Build & packaging artifacts ---
+build/
+dist/
+*.spec
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# --- Tools & caches ---
+.pytest_cache/
+.mypy_cache/
+.tox/
+.cache/
+
+# --- Logs ---
+*.log
+src/hypernate/hypernate.log
+
+# --- OS cruft ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Editors/IDEs ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- PyInstaller temp extraction (defensive) ---
+*_MEI*/
