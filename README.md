@@ -2,6 +2,9 @@
 
 Hypernate is a tiny, cross‑platform tray app that **keeps your computer awake** by micro‑nudging the mouse **1 pixel every N seconds** (default: 30). It sits quietly in your system tray/menu bar, has a single **On/Off** toggle, enforces a **single instance**, and writes a small rotating log.
 
+# Disclaimer
+This is a work in progress. App might not work fully yet until version 1 is released.
+
 ## What it solves
 - Prevents sleep/idle during long calls, demos, reads, or downloads.
 - Helps avoid “Away/Idle” presence in collaboration tools.
